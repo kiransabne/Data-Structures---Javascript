@@ -120,7 +120,6 @@ class LinkedList {
           return this.removeLast();
         }
         current.previous = current.next;
-        this.size--;
         return current.value;
       }
     }
